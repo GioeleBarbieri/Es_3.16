@@ -15,14 +15,12 @@ int main(void)
     {
         printf("il numero piu' grande e' %d", n1);
     }
-    if (n2>n1 && n2>n3)
+    else if (n2>n1 && n2>n3)
     {
         printf("il numero piu' grande e' %d", n2);
     }
-    if (n3>n2 && n3>n1)
-    {
-        printf("il numero piu' grande e' %d", n3);
-    }
+    else (printf("il numero piu' grande e' %d", n3));
+
 
     return 0;
 
